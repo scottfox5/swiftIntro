@@ -13,6 +13,8 @@
 		E34DB5B7216D71B000906AFC /* seminar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E34DB5B5216D71B000906AFC /* seminar.xcdatamodeld */; };
 		E34DB5B9216D71B500906AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34DB5B8216D71B500906AFC /* Assets.xcassets */; };
 		E34DB5BC216D71B500906AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34DB5BA216D71B500906AFC /* LaunchScreen.storyboard */; };
+		E34DB5C4216D819B00906AFC /* CalculatorControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34DB5C3216D819B00906AFC /* CalculatorControllerViewController.swift */; };
+		E38429132170102B001A2C7D /* TasksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38429122170102B001A2C7D /* TasksController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E34DB5B8216D71B500906AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E34DB5BB216D71B500906AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E34DB5BD216D71B500906AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E34DB5C3216D819B00906AFC /* CalculatorControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorControllerViewController.swift; sourceTree = "<group>"; };
+		E38429122170102B001A2C7D /* TasksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		E34DB5AD216D71B000906AFC /* seminar */ = {
 			isa = PBXGroup;
 			children = (
+				E38429122170102B001A2C7D /* TasksController.swift */,
 				E34DB5AE216D71B000906AFC /* AppDelegate.swift */,
 				E34DB5B0216D71B000906AFC /* ViewController.swift */,
+				E34DB5C3216D819B00906AFC /* CalculatorControllerViewController.swift */,
 				E34DB5B2216D71B000906AFC /* Main.storyboard */,
 				E34DB5B8216D71B500906AFC /* Assets.xcassets */,
 				E34DB5BA216D71B500906AFC /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34DB5C4216D819B00906AFC /* CalculatorControllerViewController.swift in Sources */,
+				E38429132170102B001A2C7D /* TasksController.swift in Sources */,
 				E34DB5B1216D71B000906AFC /* ViewController.swift in Sources */,
 				E34DB5AF216D71B000906AFC /* AppDelegate.swift in Sources */,
 				E34DB5B7216D71B000906AFC /* seminar.xcdatamodeld in Sources */,
